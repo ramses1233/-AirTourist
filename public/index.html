@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="AirTourist es una plataforma peruana de turismo aéreo que conecta destinos nacionales con paquetes turísticos completos.">
+  <meta name="author" content="U202212743">
+
+  <title>AirTourist | Turismo Aéreo en Perú</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+
+<body>
+
+  <header id="home">
+    <nav aria-label="Menú principal">
+      <h1>AirTourist</h1>
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#trips">Mis Viajes</a></li>
+        <li><a href="#login">Inicio Sesión</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <h2>Productos de calidad y diseños exclusivos, superando siempre sus expectativas.</h2>
+      <p>
+        AirTourist conecta a los viajeros con los destinos más emblemáticos del Perú mediante
+        vuelos turísticos, paquetes completos y asistencia personalizada.
+      </p>
+    </section>
+
+    <section id="trips">
+      <h2>Mis Viajes</h2>
+
+      <article>
+        <img src="assets/images/cusco.jpg" alt="Vista panorámica de la ciudad del Cusco">
+        <h3>Cusco</h3>
+        <p>
+          Descubre la capital histórica del Perú con vuelos, hotel y experiencias culturales únicas.
+        </p>
+      </article>
+
+      <article>
+        <img src="assets/images/arequipa.jpg" alt="Vista del volcán Misti en Arequipa">
+        <h3>Arequipa</h3>
+        <p>
+          Vive la experiencia de la Ciudad Blanca con paisajes naturales y arquitectura colonial.
+        </p>
+      </article>
+    </section>
+
+    <section id="login">
+      <h2>Inicio de Sesión</h2>
+
+      <form aria-label="Formulario de inicio de sesión">
+        <label for="name">Nombres</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="password">Clave</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Ingresar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Síguenos en redes sociales</p>
+    <div class="social-icons">
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+
+  <script src="assets/scripts/main.js"></script>
+</body>
+</html>
