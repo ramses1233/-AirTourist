@@ -193,3 +193,12 @@ footer {
     grid-column: 1 / -1;
   }
 }
+nav a {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.material-icons {
+  font-size: 20px;
+}
